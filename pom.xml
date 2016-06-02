@@ -24,7 +24,7 @@
 		<java.version>1.6</java.version>
 		<xml.doclet.version>1.0.5</xml.doclet.version>
 		<robotframework.version>2.9.2</robotframework.version>
-		<selenium.version>2.48.2</selenium.version>
+		<selenium.version>2.53.0</selenium.version>
 		<keywords.class>Selenium2Library</keywords.class>
 	</properties>
 
@@ -94,6 +94,11 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-remote-driver</artifactId>
 			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.52.0</version>
 		</dependency>
 		<dependency>
 			<groupId>io.selendroid</groupId>
